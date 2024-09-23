@@ -14,7 +14,7 @@ const Card = ({name, img,technology, live , code}) => {
         <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">{name}</h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 justify-center text-center dark:text-gray-400">{technology}</p>
+        <p className="mb-3 font-normal text-gray-700 justify-center text-center sm:text-balance dark:text-gray-400">{technology}</p>
 
         <div className='flex flex-row gap-x-6'>
 

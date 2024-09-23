@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='justify-center text-center mt-4 mb-12 '>
-      <h1 className='text-4xl rounded-full text-white font-medium  shadow-[0px_5px_40px_5px] shadow-[#b3b3b3] bg-transparent p-6 lg:w-[30%] w-[60%] mx-auto'>Projects <span className='lg-block hidden'>Showcase</span></h1>
+      <h1 className='text-4xl rounded-full text-white font-medium  shadow-[0px_5px_40px_5px] shadow-[#b3b3b3] bg-transparent p-6 lg:w-[30%] w-[60%] mx-auto'>PROJECTS <span className='lg-block hidden'>Showcase</span></h1>
      </div>
      <div className=" w-11/12 mx-auto">
 
@@ -21,7 +21,7 @@ function App() {
             <Card 
               key={index}
               name={item.name}
-              description={item.description}
+              technology={item.technology}
               img={item.image}
               code={item.code}
               live={item.live}

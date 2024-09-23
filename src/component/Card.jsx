@@ -1,20 +1,20 @@
 import React from 'react'
 
 
-const Card = ({name, img,description, live , code}) => {
+const Card = ({name, img,technology, live , code}) => {
 
  console.log(img)
   return (
     <div>
-       <div className="max-w-sm rounded-2xl bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700  shadow-[0px_-5px_40px_-5px] shadow-[#b3b3b3]  hover:scale-110 transition-all duration-200 hover:shadow-[0px_-5px_50px_-5px] hover:shadow-[#118AB2] w-[320px] h-[520px] ">
+       <div className="max-w-sm rounded-2xl  bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700  shadow-[0px_-5px_40px_-5px] shadow-[#b3b3b3]  hover:scale-110 transition-all duration-200 hover:shadow-[0px_-5px_50px_-5px] hover:shadow-[#118AB2] w-[320px] h-[520px] ">
     <a href="#">
-        <img className="rounded-t-2xl object-cover w-full h-[300px]" src={img} alt="Image" />
+        <img className="rounded-t-2xl object-fit w-full h-[300px]" src={img} alt="Image" />
     </a>
     <div className="p-5 flex flex-col justify-between items-center gap-y-2">
         <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">{name}</h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{description}</p>
+        <p className="mb-3 font-normal text-gray-700 justify-center text-center dark:text-gray-400">{technology}</p>
 
         <div className='flex flex-row gap-x-6'>
 

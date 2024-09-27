@@ -22,8 +22,8 @@ export  const data=[
         name:"Marks Portal",
         image:MMS,
         technology: "Node.js, Express.js, React.js, MongoDB, cloudinary, tailwind",
-        code:"https://github.com/patelharshshaileshbhai/MIDSEM_MERN",
-        live:"https://midsem-mern-55mw.vercel.app/",
+        code:"https://github.com/patelharshshaileshbhai/Marks_Management_System",
+        live:"https://marks-management-system.vercel.app/",
     },
     {
         id:3,
